@@ -187,6 +187,9 @@ int main(void)
 			}
 		}
 		HAL_Delay(500);
+		HAL_Delay(500);
+		HAL_Delay(500);
+		HAL_Delay(500);
 		if( NRF24L01_Available( NULL ) ){
 			uint8_t done = 0;
 			
